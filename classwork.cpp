@@ -3,7 +3,6 @@
 * contains the following procedures to work with lists:
 * display, append, insert, remove, length
 */
-#include "listhelpers.hpp"
 
 #include <cstdlib>   // srand, rand
 #include <ctime>     // time
@@ -18,7 +17,10 @@
 
 
 // TODO: Create squareNum
-
+void squareNum(int n)
+{
+    std::cout << "The square of " << n << " is " << (n*n) << std::endl;
+}
 // TODO: Create distance
 
 // TODO: Create rollDice
@@ -26,6 +28,9 @@
 int main()
 {
     // You can follow along with any code in class here
+    squareNum(5);
+    squareNum(-2);
+    squareNum(0);
 
     
     return 0;
